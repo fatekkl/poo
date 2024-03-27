@@ -1,4 +1,4 @@
-package poo.lucasmontano.br.com.fate.poolucasmontano.model
+package br.com.fate.poolucasmontano.model
 
 interface Engine {
     fun on ()

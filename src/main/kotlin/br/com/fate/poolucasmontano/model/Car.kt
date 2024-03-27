@@ -1,6 +1,6 @@
-package poo.lucasmontano.br.com.fate.poolucasmontano.model
+package br.com.fate.poolucasmontano.model
 
-import br.com.fate.poolucasmontano.model.HybridEngine
+import poo.lucasmontano.br.com.fate.poolucasmontano.model.EngineImpl
 
 class Car (private val engine: EngineImpl) : Engine by engine{
 

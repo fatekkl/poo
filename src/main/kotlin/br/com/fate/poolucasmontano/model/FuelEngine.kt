@@ -1,4 +1,6 @@
-package poo.lucasmontano.br.com.fate.poolucasmontano.model
+package br.com.fate.poolucasmontano.model
+
+import poo.lucasmontano.br.com.fate.poolucasmontano.model.EngineImpl
 
 class FuelEngine : EngineImpl() {
     private var fuel: Int = 2
