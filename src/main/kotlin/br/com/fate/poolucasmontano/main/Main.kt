@@ -11,10 +11,7 @@ fun main() {
     val engine = FuelEngine()
     val battery = EletricEngine()
     val hybrid = HybridEngine()
-
-
-    val fusca = Car(engine)
-    val tesla = Car(battery)
+    
     val toyota = Car(hybrid)
 
     toyota.on()
