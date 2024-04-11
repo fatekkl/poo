@@ -1,6 +1,4 @@
-package poo.lucasmontano.br.com.fate.poolucasmontano.model
-
-import br.com.fate.poolucasmontano.model.Engine
+package br.com.fate.poolucasmontano.model
 
 abstract class EngineImpl : Engine {
     private var attached: Boolean = false

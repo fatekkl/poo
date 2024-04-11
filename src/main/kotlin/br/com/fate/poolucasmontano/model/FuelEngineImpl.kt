@@ -1,10 +1,7 @@
 package br.com.fate.poolucasmontano.model
 
-import poo.lucasmontano.br.com.fate.poolucasmontano.model.EngineImpl
-
-class FuelEngine : EngineImpl() {
+class FuelEngineImpl : EngineImpl() {
     private var fuel: Int = 2
-
     override fun using() {
         println("Gastando combústivel")
         fuel--
